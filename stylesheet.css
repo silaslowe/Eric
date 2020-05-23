@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+#main {
+  margin: 0;
+}
+#company-name-pic {
+  background-image: url(https://images.unsplash.com/photo-1544840280-80e54213dfdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#landing-image {
+  height: 50vh;
+}
+#intro {
+  height: 50vh;
+}
+#projects {
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+}
+img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+#intro-pic {
+  width: 20%;
+}
