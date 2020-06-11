@@ -3,6 +3,7 @@ body {
   background-image: url(/img/woodshop.jpg);
   background-repeat: no-repeat, repeat;
   font-family: 'Special Elite', cursive;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -36,7 +37,7 @@ header {
   align-items: center;
 }
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -51,8 +52,28 @@ header {
   flex: 1;
 }
 
-img {
+.img-container {
   width: 60%;
+  transition: all 0.7s ease;
+}
+
+.img-container:active {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .img-container:hover {
+    width: 90%;
+  }
+}
+img {
+  width: 100%;
   box-shadow: 10px 10px 20px #2e2c2c;
   margin: 1em auto;
+}
+
+footer {
+  background-color: rgb(211, 211, 211, 0.65);
+  font-size: 2em;
+  padding: 2rem 1rem;
 }
